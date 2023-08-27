@@ -1,0 +1,90 @@
+.addon-box-container {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.addon-label {
+    margin: 0;
+    padding: .1rem 0;
+}
+
+.addon-icon {
+    background-color: var(--purplish-blue);    
+    border-radius: .2rem;
+}
+
+
+.addon-amount {
+    color: var(--purplish-blue);
+}
+
+.addon-box {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    align-items:center;
+    justify-content: left;   
+    border: var(--border-width) solid var(--light-gray);
+    border-radius: .5rem;
+    padding: .75rem;
+}
+
+.addon-box:hover, :focus {
+    cursor: pointer;
+}
+
+.addon-box-clicked{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    align-items:center;
+    justify-content: left;   
+    border: var(--border-width) solid var(--purplish-blue);
+    background-color: var(--alabaster);
+    cursor: pointer;
+    font-weight: inherit;
+    border-radius: .5rem;
+    padding: .75rem;
+}
+
+/* Create the checkbox that shows when box is unchecked */
+.checkmark {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 1.1rem;
+    width: 1.1rem;
+    background-color: var(--white);  
+    border: var(--border-width) solid var(--light-gray);
+    border-radius: .25rem;
+}
+
+.checkmark-clicked {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 1.1rem;
+    width: 1.1rem;
+    background-color: var(--purplish-blue);
+    border: var(--border-width) solid var(--white);
+    border-radius: .25rem;
+}
+
+/* Style the checkmark/indicator */
+.checkmark-clicked::after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: .33rem;
+    top: .15rem;
+    width: .3rem;
+    height: .5rem;
+    border: solid white;
+    border-width: 0 .125rem .125rem 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.addon-wrapper{
+    text-align: left;
+}

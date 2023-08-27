@@ -1,0 +1,13 @@
+.confirm-box-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.confirm-box-container img {
+    display: block;
+    width: 20%;
+    margin: auto;
+    padding: 3rem 0 1.5rem;
+}
+

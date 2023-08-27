@@ -1,0 +1,43 @@
+.purchases-container {
+    background-color: var(--alabaster);
+    border-radius: .5rem;
+    display: grid;
+    padding: 1rem;
+}
+
+.purchase-plan {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.purchase-addons {
+    display: grid;
+    gap: .75rem;
+    grid-auto-flow: row;
+}
+
+.purchase-addon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.purchase-total {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    padding: 1rem 1rem 0;  
+
+}
+
+.purchase-amount, .total-amount {
+    justify-self: end;
+}
+
+hr {
+    border: .05rem solid var(--light-gray);
+    margin: 1rem 0;
+}
+
+.href {
+    display: flex;
+}

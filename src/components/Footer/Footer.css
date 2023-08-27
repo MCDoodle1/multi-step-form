@@ -1,0 +1,16 @@
+.attribution { 
+    background-color: var(--white);
+    font-size: 11px; 
+    text-align: center; 
+    margin-block-start: 1.5rem;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (width >= 1000px) {
+    .attribution {
+      background-color: var(--magnolia);  
+    }
+}
