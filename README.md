@@ -14,7 +14,6 @@ This is a solution to the [Multi-step form challenge on Frontend Mentor](https:/
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -35,13 +34,13 @@ Users should be able to:
 
 ### Screenshot
 
-![mobile](./src/images/Screenshot-Mobile.png)
-![desktop](./src/images/Screenshot-desktop.png)
+![mobile](../multistep-form/src/images/Screenshot-Mobile.pdf)
+![desktop](../multistep-form/src/images/Screenshot-desktop.pdf)
 
 ### Links
 
 - Solution URL: [GitHub Page](https://github.com/MCDoodle1/multi-step-form)
-- Live Site URL: [Space Tourism Site](https://mcdoodle1.github.io/multi-step-form/)
+- Live Site URL: [Multi Step Form](https://mcdoodle1.github.io/multi-step-form/)
 
 ## My process
 
@@ -49,14 +48,10 @@ I started by examining the App's lay-out and defined the different React compone
 
 ### Built with
 
-- Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
 - CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
 
 ### What I learned
