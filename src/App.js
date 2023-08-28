@@ -46,6 +46,8 @@ function App() {
 
     if (!formData.email) {
       newErrors.email = 'This field is required';
+    } else if (!/\S+@\S+\.\S+/.test(formData.email)) { 
+      newErrors.email = 'Invalid email format';
     }
 
     if (!formData.phone) {

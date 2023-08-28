@@ -21,7 +21,7 @@ export default function Summary( {
                     <div className="purchase-plan">
                         <div className="purchase-plan-sub">
                             <div className="purchase-label smallfont dark bold">{planName} ({isMonthly ? 'Monthly' : 'Yearly'})</div>
-                            <a href="Plan" className="href smallfont light">Change</a>
+                            <a href="#/Plan" className="href smallfont light">Change</a>
                         </div>
                         <div className="purchase-amount smallfont dark bolder">${planPrice} {isMonthly ? '/mo' : '/yr'}</div>
                     </div>

@@ -41,3 +41,7 @@ hr {
 .href {
     display: flex;
 }
+
+.href:hover, :focus {
+    color: var(--purplish-blue)
+}

@@ -3,7 +3,6 @@ import '../Plan/Plan.css';
 import Toggle from '../Toggle/Toggle';
 import Button from "../Button/Button";
 
-
 export default function Plan( {
     isMonthly, 
     plans, 
@@ -19,9 +18,8 @@ export default function Plan( {
               <p>You have the option of monthly or yearly billing.</p>
               <div className="plan-box-container">
                   {plans.map((plan, id) => (
-          
                       <button onClick={() => addPlanData(plan)} className="plan-box" key={id}>
-                          <div className="plan-icon"><img src={plan.icon} alt="Advanced icon" /></div>
+                          <div className="plan-icon"><img src={process.env.PUBLIC_URL + plan.icon} alt={`${plan.name} Icon`} /></div>
                           <div className="plan-wrapper">
                               <div className="plan-label mediumfont dark bold">{plan.name}</div>
                               {isMonthly ?
