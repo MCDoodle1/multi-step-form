@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Screenshot
 
-![mobile](../multistep-form/src/images/Screenshot-Mobile.pdf)
-![desktop](../multistep-form/src/images/Screenshot-desktop.pdf)
+![mobile](../src/images/Screenshot-Mobile.pdf)
+![desktop](../src/images/Screenshot-desktop.pdf)
 
 ### Links
 
